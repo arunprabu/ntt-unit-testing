@@ -1,0 +1,59 @@
+Automated Testing 
+----
+  0. Static Type Checking
+      TypeScript
+  1. Unit Testing 
+      Writing code to test our dev code 
+      Testing the Components without Services  
+
+      Step 1: Write unit Test cases 
+        Add
+          1. Have add functionality
+          2. Inputs should be numbers 
+          3. Output should also be number 
+
+      Step 2: Tools will run the test cases -- we will see the test cases failing
+      Step 3: We have to write out dev code to fix the above failed test cases 
+
+      Prereq: JasmineJS, Karma 
+      Karma - Test Runner ()
+      JasmineJS - Testing Framework  (8 hours)
+
+  2. Integration Testing 
+      Testing the app with Services, Side Effects
+      By integrating Comp ith services 
+
+
+  3. E2E Testing 
+      Testing the entire app 
+      QA, Dev + QA 
+
+
+Software Development
+----
+  Calc 
+
+  
+  function add(a: number, b: number): number {
+    return a + b;
+  }
+
+  add(10, 20);
+
+Development 
+  Test Cases 
+  ------------
+  
+
+  => QA (50) 
+    => Development (Fixing bugs) 
+      => QA (10) 
+        => Development (Fixing Bugs) 
+          => QA (0, 1 or 2 minor bugs) 
+            => CERTIFY 
+              => Prod Deployment 
+
+
+
+
+

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-unit-testing';
+  title = 'my-unit-testing!';
+
+  add(a: number, b: number ): number {
+    return a + b;
+  }
+
 }
